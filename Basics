@@ -1,0 +1,42 @@
+1)SingleLine Comment--> #This is a singleline comment in python just put # infront of line.
+2)Multiline Comment--> 
+"""
+This is a comment
+written in 
+more than just one line.This is way to write multiline comment
+"""
+3) Variables do not need to be declared with any particular type and can even change type after they have been set.
+4) String variables can be declared either by using single or double quotes.
+5) Python allows you to assign values to multiple variables in one line And you can assign the same value to multiple variables in one line
+	e.g., 
+		1)	x, y, z = "Orange", "Banana", "Cherry"
+			print(x)
+			print(y)
+			print(z)
+		2)	x = y = z = "Orange"
+			print(x)
+			print(y)
+			print(z)
+6) To verify the type of any object in Python, use the type() function.			
+7)You can convert from one type to another with the int(), float(), str() and complex() methods.
+8)Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers.
+			--> import random
+				print(random.randrange(1,10))
+				
+9)You can assign a multiline string to a variable by using three quotes(single or double)
+			--> a = """Lorem ipsum dolor sit amet,
+					consectetur adipiscing elit,
+					sed do eiusmod tempor incididunt
+					ut labore et dolore magna aliqua."""
+
+10) The strip() method removes any whitespace from the beginning or the end.
+11) The len() method returns the length of a string.
+12) The lower() method returns the string in lower case.
+13) The upper() method returns the string in upper case.
+14) The replace() method replaces a string with another string (all the instances will be replaced).
+15) The split() method splits the string into substrings if it finds instances of the separator.
+16) As we learned in the Python Variables chapter, we cannot combine strings and numbers as datatypes are different.Hence use format() function for the same.
+The format() method takes the passed arguments, formats them, and places them in the string where the placeholders {} are.
+		--> age = 36
+			txt = "My name is John, and I am {}"
+			print(txt.format(age))
